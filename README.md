@@ -35,8 +35,12 @@ o Spark-MongoDB has jars issue and it was solved by externally finding the compa
 
 Tools Used:  
 • Jupyter Notebook using Python3 kernel- The Jupyter Notebook, which is more often called Jupyter is a server-client application that allows us to edit our code through a web browser. The reason for choosing this tool: In the same file, you can have pure text that can communicate a message to the reader, computer code like Python, and output containing rich text, like figures, graphs, and others. This simplifies the process of the workflow immensely.
+
 • Python libraries such as pandas, pyspark -These libraries are used to use some, inbuilt functionalities given by these packages. Pandas is used to perform initial data manipulation and help in simulation of streaming data. Pyspark is used to connect to the spark pipeline. These libraries simplify most of the complex problems with their inbuilt functionalities.
 • Mongodb - We are using MongoDb as our persistent storage database. Being a document database it can store different structures of data in a single collection which is most efficient for our project. Also, the python integration of MongoDb is really helpful to connect to different streaming pipelines.
+
 • Apache Spark - We are using Apache Spark for both real-time stream processing as well as batch processing. Apache Spark achieves high performance for both batch and streaming data, using a state-of-the-art DAG scheduler, a query optimizer, and a physical execution engine.Spark Streaming uses Spark Core's fast scheduling capability to perform streaming analytics. It ingests data in mini-batches and performs RDD transformations on those mini-batches of data. This design enables the same set of application code written for batch analytics to be used in streaming analytics, thus facilitating easy implementation of lambda architecture. 
+
 • Tweepy API - We are using Tweepy to get real-time streaming data from twitter. The API class provides access to the entire twitter RESTful API methods. Each method can accept various parameters and return responses.When we invoke an API method most of the time returned back to us will be a Tweepy model class instance. This will contain the data returned from Twitter which we can then use inside our application. 
+
 • Mongo-spark-connector - One of the most useful libraries to connect spark with the NoSQL database and perform processing on the a big unprocessed or staged data. 
