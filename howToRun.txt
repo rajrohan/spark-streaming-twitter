@@ -1,0 +1,5 @@
+1.First of all Start server socket by running tweetRead.ipynb
+2.Run sparkStreamingMongodb.ipynb for spark streaming and mongodb storing at the same time otherwise run spark.ipynb
+3.Run batchProcessing.ipynb for visualise the data using only mongodb
+4. spark-submit --jars org.mongodb.spark_mongo-spark-connector_2.11-2.4.0.jar,mongo-java-driver-3.9.0.jar sparkMongo.py
+
