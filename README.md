@@ -44,3 +44,8 @@ Tools Used:
 • Tweepy API - We are using Tweepy to get real-time streaming data from twitter. The API class provides access to the entire twitter RESTful API methods. Each method can accept various parameters and return responses.When we invoke an API method most of the time returned back to us will be a Tweepy model class instance. This will contain the data returned from Twitter which we can then use inside our application. 
 
 • Mongo-spark-connector - One of the most useful libraries to connect spark with the NoSQL database and perform processing on the a big unprocessed or staged data. 
+
+refrence- 
+1.https://github.com/jleetutorial/python-spark-streaming/
+2.https://spark.apache.org/docs/2.2.0/streaming-programming-guide.html 
+
