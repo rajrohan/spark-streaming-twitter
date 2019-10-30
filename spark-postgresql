@@ -1,0 +1,11 @@
+# Performed in CMD 
+# Steps required before running this
+# Postgresql shuld be running, you should have the driver of postgresql.jar
+# set the driver class path
+# bin/spark-shell --driver-class-path postgresql-42.2.8.jar --jars postgresql-42.2.8.jar
+url = "jdbc:postgresql://localhost/onsite"
+properties = {"driver": "org.postgresql.Driver","user": "rraj","password": "123456" ... }
+
+df = spark.read.jdbc(url=url,\table="onsite_complete.test", \ properties=properties)
+df.printSchema() root 
+|-- id: long (nullable = true)
